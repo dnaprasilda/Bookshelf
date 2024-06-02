@@ -10,3 +10,7 @@ Bookshelf adalah aplikasi web sederhana untuk mengelola data buku menggunakan DO
 - **Menghapus Buku**: Pengguna dapat menghapus buku dari rak.
 - **Penyimpanan Data Lokal**: Data buku disimpan menggunakan localStorage, sehingga tetap ada meskipun halaman direfresh.
 - **Fungsionalitas Baik**: Aplikasi berfungsi dengan baik tanpa bug atau force close, dan semua fitur berjalan sesuai yang diharapkan.
+- **Dan saran lainnya.**
+
+## Rating Submission
+🌟🌟🌟🌟
