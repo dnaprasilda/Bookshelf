@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: snow;
+    padding: 20px;
+    color: black;
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .container {
+    width: 1024px;
+    height: fit-content;
+    background: snow;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding: 10px 20px 10px 24px;
+    border-radius: 26px;
+    background: white;
+}
+
+.item > .inner h2 {
+    margin-bottom: unset;
+}
+
+.item > .inner p {
+    margin-top: 5px;
+}
+
+.form,
+.form-group {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 16px;
+}
+
+.form-group label {
+    margin-bottom: 3px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+input[type=text],
+input[type=number] {
+    font-family: 'Raleway', sans-serif;
+    padding: 16px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    background: white;
+    border: 2px solid pink;
+    border-radius: 8px;
+}
+
+
+.btn-submit {
+    width: fit-content;
+    border-radius: 16px;
+    background: #F5F1FF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    border: 2px solid pink;
+    padding: 12px 24px;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.btn-submit:hover {
+    background: pink;
+    color: bisque;
+}
+
+input[type=text],
+input[type=number],
+.btn-submit:focus {
+    outline: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-title {
+    margin: auto 0;
+}
+
+.check-button,
+.trash-button,
+.undo-button {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.check-button {
+    background: url('../img/book2.svg');
+    background-size: contain;
+}
+
+.check-button:hover {
+    background: url('../img/book1.svg');
+    background-size: contain;
+
+}
+
+.trash-button {
+    background: url('../img/trash1.svg');
+    background-size: contain;
+    margin-left: 16px;
+}
+
+.trash-button:hover {
+    background: url('../img/trash2.svg');
+    background-size: contain;
+
+}
+
+.undo-button {
+    background: url('../img/undo.svg');
+    background-size: contain;
+    margin-left: auto;
+}
+
+.undo-button:hover {
+    background: url('../img/undo2.svg');
+    background-size: contain;
+
+}
+
+.check-button:focus,
+.trash-button:focus,
+.undo-button:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        margin: 0;
+    }
+
+    .wrapper .container {
+        width: 100%;
+    }
+
+    .list-item {
+        width: 90%;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
