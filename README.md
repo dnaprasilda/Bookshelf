@@ -1,4 +1,7 @@
 # Bookshelf
+Submission Aplikasi Pengelolaan Data Menggunakan DOM dan Web Storage
+
+
 
 Bookshelf adalah aplikasi web sederhana untuk mengelola data buku menggunakan DOM (Document Object Model) dan Web Storage (localStorage). Aplikasi ini memungkinkan pengguna untuk menambahkan buku baru, mengelola status pembacaan, dan menyimpan data buku secara lokal.
 
